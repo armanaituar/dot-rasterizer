@@ -18,7 +18,7 @@ function draw() {
   noStroke();
   
   const ratio = height/width;
-  const tilesX = map(mouseX, 0, width, 50, 500);
+  const tilesX = map(mouseX, 0, width, 50, 300);
   const tilesY = ratio * tilesX;
   const tileSize = width / tilesX;
   
